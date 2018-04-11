@@ -15,6 +15,13 @@ record.create_images()
 		 
 		<record id="blog_posts_carousel" model="website.unitegallery.carousel">
             <field name="name">Blog Posts</field>
+            <field name="tile_width">268</field>
+            <field name="tile_height">151</field>
+            <field name="tile_as_link">True</field>
+            <field name="tile_link_newpage">False</field>
+            <field name="tile_enable_textpanel">True</field>
+            <field name="tile_textpanel_source">title_and_desc</field>
+            <field name="tile_textpanel_always_on">True</field>
             <field name="gallery_id" ref="website_unitegallery.default_gallery"/>
         </record>
         
