@@ -7,16 +7,44 @@
     		<div id="ug" class="container">
     			<div class="row">
     				<div class="ug-gallery">
-    				<h1>Puto</h1>
+    					<a href="http://unitegallery.net">
+						<img alt="Lemon Slice"
+						     src="/website_unitegallery/static/src/img/thumbs/tile1.jpg"
+						     data-image="/website_unitegallery/static/src/img/big/tile1.jpg"
+						     data-description="This is a Lemon Slice"
+						     style="display:none"/>
+						</a>
+				
+						<a href="http://unitegallery.net">
+						<img alt="Peppers"
+						     src="/website_unitegallery/static/src/img/thumbs/tile2.jpg"
+						     data-image="/website_unitegallery/static/src/img/big/tile2.jpg"
+						     data-description="Those are peppers"
+						     style="display:none"/>
+						</a>
+				
+						<a href="http://unitegallery.net">
+						<img alt="Keys"
+						     src="/website_unitegallery/static/src/img/thumbs/tile3.jpg"
+						     data-image="/website_unitegallery/static/src/img/big/tile3.jpg"
+						     data-description="Those are keys"
+						     style="display:none"/>
+						</a>
+				
+						<a href="http://unitegallery.net">
+						<img alt="Friuts in cup"
+						     src="/website_unitegallery/static/src/img/thumbs/tile4.jpg"
+						     data-image="/website_unitegallery/static/src/img/big/tile4.jpg"
+						     data-description="Those are friuts in a cup"
+						     style="display:none"/>
+						</a>
     				
     				</div>  
     			</div>
     		</div>
     	</section>
-    	
-    <!--  	<script type="text/javascript" src="/website_unitegallery/static/src/unitegallery/themes/carousel/ug-theme-carousel.js"/>
-    		
-    		<t t-raw="website.unitegallery_id.get_carousel(website.unitegallery_id.id, 'demo', '#gallery')" /> -->
+   		
+    		<t t-raw="website.unitegallery_id.get_carousel(website.unitegallery_id.id, 'Default Carousel', '#ug-gallery')" /> 
     	</template>
     	
 

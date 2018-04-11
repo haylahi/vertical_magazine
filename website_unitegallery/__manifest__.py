@@ -34,6 +34,7 @@
         'views/ug_templates.xml',
         'views/ug_snippets.xml',
         'views/res_config_settings.xml',
+        'data/ug_data.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

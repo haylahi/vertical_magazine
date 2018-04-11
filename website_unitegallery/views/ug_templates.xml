@@ -8,6 +8,7 @@
 		    </xpath>
 		    <xpath expr="//script[last()]" position="after">
 		        <script type="text/javascript" src="/website_unitegallery/static/src/unitegallery/js/unitegallery.min.js"/>
+		        <script type="text/javascript" src="/website_unitegallery/static/src/js/ug_options.js"/>
 		    </xpath>
 		</template>
 	</data>

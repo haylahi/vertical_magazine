@@ -12,6 +12,11 @@ record.create_images()
             </field>
         </record>
 		 <function model="blog.post" name="create_thumbnails"/>
+		 
+		<record id="blog_posts_carousel" model="website.unitegallery.carousel">
+            <field name="name">Blog Posts</field>
+            <field name="gallery_id" ref="website_unitegallery.default_gallery"/>
+        </record>
         
 
 </odoo>
