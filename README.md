@@ -1,8 +1,8 @@
-Vertical Magazine
------------------
+Vertical Magazine (Alpha)
+-------------------------
 
 Modules to implement the publication of digital journals as a verticalization on Odoo
-Phase Alpha
+
 
 
 Available addons
