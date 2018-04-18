@@ -3,7 +3,10 @@ Vertical Magazine (Alpha)
 
 Modules to implement the publication of digital journals as a verticalization on Odoo
 
-
+Depends
+-------
+[OCA/web](https://github.com/OCA/web.git)
+[OCA/website](https://github.com/OCA/website.git)
 
 Available addons
 ----------------
