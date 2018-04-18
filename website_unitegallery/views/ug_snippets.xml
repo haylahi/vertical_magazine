@@ -5,8 +5,12 @@
     	<template id="s_ug_carousel" name="Carousel">
     	<section class="snippet-carousel">
     		<div id="ug" class="container">
+    		
+    	<h1>
+    		Hola
+    	</h1>
     			<div class="row">
-    				<div class="ug-gallery">
+    				<div class="ug-gallery" data-ug_theme="carousel">
     					<a href="http://unitegallery.net">
 						<img alt="Lemon Slice"
 						     src="/website_unitegallery/static/src/img/thumbs/tile1.jpg"

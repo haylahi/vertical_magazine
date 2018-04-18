@@ -1,9 +1,7 @@
-
 odoo.define('website_blog_cover.editor', function (require) {
 'use strict';
 require('web.dom_ready');
 var options = require('web_editor.snippets.options');
-console.log('orale')
 if (!$('.js_cover').length) {
     return $.Deferred().reject("DOM doesn't contain '.js_cover'");
 } 
