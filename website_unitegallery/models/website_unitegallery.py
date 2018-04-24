@@ -46,7 +46,7 @@ class WebsiteUnitegallery(models.Model):
     tile_textpanel_bg_opacity = fields.Float('Background Opacity', default=0.4, help="Textpanel background opacity")
     textpanel_title_color = fields.Char('Title Color', default="#F3F3F3")
     textpanel_desc_color = fields.Char('Description Color', default="#F3F3F3")
-    lightbox_overlay_color = fields.Char('Overlay Color', default="#00000", help="The color of the overlay.")
+    lightbox_overlay_color = fields.Char('Overlay Color', default="#000000", help="The color of the overlay.")
     lightbox_overlay_opacity = fields.Float('Overlay Opacity', default=1)
     lightbox_top_panel_opacity = fields.Float('Top Panel Opacity', default=0.4)
     lightbox_show_numbers = fields.Boolean('Show Numbers', default=True)
